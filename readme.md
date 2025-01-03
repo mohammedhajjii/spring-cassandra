@@ -353,8 +353,42 @@ public class SpringCassandraApplication {
 ```
 
 
+#### Application.properties file
+
+```properties
+spring.application.name=spring-cassandra
+spring.cassandra.contact-points=127.0.0.1
+spring.cassandra.port=9042
+spring.cassandra.keyspace-name=store
+spring.cassandra.local-datacenter=datacenter1
+spring.cassandra.schema-action=recreate_drop_unused
+
+```
+
+
 
 ### Results
+
+#### Checking product table in store keyspace
+
+
+![product-table](./screens/product_table.png)
+
+#### Checking swagger documentation
+
+
+![swagger-doc](./screens/swagger.png)
+
+
+#### Download Api documentation
+
+![download-doc](./screens/generated_api_doc.png)
+
+
+#### Import Api documentation on Postman
+
+![postman](./screens/import_api_post_man.png)
+
 
 #### Get all
 
