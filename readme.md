@@ -71,7 +71,7 @@ import org.springframework.data.cassandra.core.mapping.Table;
 
 import java.util.UUID;
 
-@Table("PRODUCTS")
+@Table
 @Getter @Setter @AllArgsConstructor @NoArgsConstructor @Builder
 @ToString
 public class Product {
